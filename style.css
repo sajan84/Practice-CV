@@ -1,0 +1,23 @@
+body {
+  background: #EAF6F;
+}
+
+hr {
+  background-color: white;
+
+  /* border-style: dotted none none; */
+  /* first dotted for top in the box next none is for a left and right for the box and next dotted is for bottom of the box in this we set
+  left and right is none and height is alspo 0 px that's why we saw simply one border */
+
+  border-style: none;
+  border-top-style: dotted;
+
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+}
+
+h1,h2{
+  color: #66BFBF;
+}
